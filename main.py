@@ -69,7 +69,7 @@ def search(): # Run the search function from func with the contents of search_en
 # Innitialize the GUI window.
 root = tk.Tk()
 root.title("Pass It")
-root.iconbitmap('logo.ico')
+root.iconbitmap('logo.ico') # If you are having problems with this line when running in Linux it can be commented out. It only sets the app icon.
 
 # Define each label.
 app_label = tk.Label(root, text="App:")
