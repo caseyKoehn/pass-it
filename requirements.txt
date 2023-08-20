@@ -1,0 +1,7 @@
+# requirements.txt
+
+# For SQLite3
+sqlite3
+
+# May be included in your Python distribution already.
+tkinter
